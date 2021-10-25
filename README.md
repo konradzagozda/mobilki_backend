@@ -5,3 +5,12 @@
 pip install pip_requirements.txt    
 python manage.py migrate  
 python manage.py runserver  
+
+
+## logowanie:
+
+/auth/token/login POST (generuje token), przekazujemy go w requestach i wtedy jesteśmy zalogowani
+
+## rejestracja:
+
+/auth/users  POST
